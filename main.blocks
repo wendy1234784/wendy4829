@@ -1,0 +1,37 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="*-e:Y*}?vnnHoF(`7G$$">答案</variable><variable id="ky+pmU~:VI($`U_m0aFT">題目</variable><variable id="O9%ec]xURYL;~k:Dsgb_">I</variable><variable id="c#`FzY4iVLpDC6!}m{]#">list</variable><variable id="{b8UQD,irXFi74@F3S(M">回答</variable></variables><block type="pxt-on-start" id="D5n,sqNW3Z.D)Pav*f`t" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="K4sju#Pg{q,KAde]*xps"><field name="VAR" id="O9%ec]xURYL;~k:Dsgb_">I</field><value name="VALUE"><shadow type="math_number" id="|$E@}NG!,Z(V(o@_Vsew"><field name="NUM">0</field></shadow></value><next><block type="variables_set" id="g9nKPd?WKS/n$x.4Z%Q_"><field name="VAR" id="ky+pmU~:VI($`U_m0aFT">題目</field><value name="VALUE"><block type="lists_create_with" id="6hL+8G$HQ}^[;Ng92b]d" inline="false"><mutation items="4" horizontalafter="3"/><value name="ADD0"><shadow type="math_number" id="Q.djlF+H//}p~L:lr#ap"><field name="NUM">1</field></shadow></value><value name="ADD1"><shadow type="math_number" id="pN{aM(*frFOc6J)/l_:9"><field name="NUM">1</field></shadow></value><value name="ADD2"><shadow type="math_number" id="6NlUjyb(Gv-gX1AVT[I="><field name="NUM">0</field></shadow></value><value name="ADD3"><shadow type="math_number" id="bnUS0x-uUMY#+[}brDW."><field name="NUM">0</field></shadow></value></block></value></block></next></block></statement></block><block type="device_forever" id="FyH{qfjj9|#lOTgWmavz" x="341" y="41"/><block type="device_button_event" id="gcgSt5@(z0xqY]c^!h!n" x="390" y="236"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="variables_change" id="5UZ^FbO%:DdO{6oCRW^6"><field name="VAR" id="O9%ec]xURYL;~k:Dsgb_">I</field><value name="VALUE"><shadow type="math_number" id="*xJu^AW9=;hmn?b2n5Jv"><field name="NUM">1</field></shadow></value></block></statement></block><block type="device_button_event" id="9~,;|2(jZrxJNEIVc1N~" x="-104" y="447"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="variables_set" id="CV-Uyt(p7bnHwv@..Jm*"><field name="VAR" id="{b8UQD,irXFi74@F3S(M">回答</field><value name="VALUE"><shadow type="math_number" id="Kb=xUE.Jt9SsQ?jYN-FI"><field name="NUM">1</field></shadow></value><next><block type="controls_if" id="*I]ZcJVEvm@c/?hR0Qy;"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="Dl7{G^@YwA%;QWTqxuQS"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="lists_index_get" id="70hD#F%4:-B_IsL|AZ.M"><value name="LIST"><block type="variables_get" id="]QSLnaHuTq_HtU1o3tW#"><field name="VAR" id="ky+pmU~:VI($`U_m0aFT">題目</field></block></value><value name="INDEX"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="zj#?*whfUd/|WzBVoK[u"><field name="VAR" id="O9%ec]xURYL;~k:Dsgb_">I</field></block></value></block></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="|}TC5q^GlM4*1=Fw%+~x"><field name="VAR" id="{b8UQD,irXFi74@F3S(M">回答</field></block></value></block></value><statement name="DO0"><block type="device_show_leds" id="L(maU`vtuvU*2zt+ctja"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="wqEqULobaD~sJF(h/!7O"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></statement><next><block type="device_show_leds" id="[+L/j%V=g4I7a]0!KOU{"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block><block type="device_button_event" id="u{jUejCr{DS4(N?[NC/3" x="-131" y="1481"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="variables_set" id="ovH{x*Wz!#weTPn.~(xc"><field name="VAR" id="{b8UQD,irXFi74@F3S(M">回答</field><value name="VALUE"><shadow type="math_number" id="-3#/;Zs(`EPQk+qee|CP"><field name="NUM">0</field></shadow></value><next><block type="controls_if" id="@vX2:K-aPpN[;^:ss2,W"><mutation else="1"/><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="logic_compare" id="zZNQUgYWE{%7I$@jvi2E"><field name="OP">EQ</field><value name="A"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="lists_index_get" id="m{^.XVIi_7Ys_*%VIf#9"><value name="LIST"><block type="variables_get" id="m[9ux|YAW/11JK~rr3uo"><field name="VAR" id="ky+pmU~:VI($`U_m0aFT">題目</field></block></value><value name="INDEX"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="ZQ_aU#@S;z=NWe:Nc8s%"><field name="VAR" id="O9%ec]xURYL;~k:Dsgb_">I</field></block></value></block></value><value name="B"><shadow type="math_number"><field name="NUM">0</field></shadow><block type="variables_get" id="gk$ez@P}7@+VX}xm+iuI"><field name="VAR" id="{b8UQD,irXFi74@F3S(M">回答</field></block></value></block></value><statement name="DO0"><block type="device_show_leds" id=")]7|.X.Hz$DOb#{(:~?]"><field name="LEDS">`
+        . . # . . 
+        . # . # . 
+        # . . . # 
+        . # . # . 
+        . . # . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id="cn4cZ)8Lj)Aw6l?{ZQMG"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . # 
+        . # . # . 
+        # . . . #
+        `</field></block></statement><next><block type="device_show_leds" id="0Y`ZV%v:)0hc!7x/]H@("><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field></block></next></block></next></block></statement></block></xml>
